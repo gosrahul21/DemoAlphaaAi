@@ -1,0 +1,14 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  student(id: String!): Student!
+  students: [Student!]!
+}
+
+type Student {
+  courses: [String!]!
+  name: String!
+  stream: String!
+}
